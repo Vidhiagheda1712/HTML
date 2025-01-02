@@ -1,0 +1,49 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box:
+	}
+.container{
+	  max-width:1140px;
+	  margin:0 auto;
+}
+body{
+	 background-image:url('../img/chessboard.jpg');
+	 background-size:cover;
+	 background-position:center;
+	 background-repeat:no-repeat;
+      height:100vh;
+	 overflow:hidden;
+	 padding:80px 80px;
+	 background-blend-mode:darken;
+	 color:rgba(0,0,0,0.7);
+}
+.chess{
+	 width:1000px;
+	 height:1000px;
+	 border:5px outset #739072;
+	 margin:0 auto;
+	 background-color:white;
+	 background-position:center;
+	 background-attachment:fixed;
+	 }
+.black{
+	width:calc(100% - 87.5%);
+	height:calc(100% - 87.5%);
+	background-color:#739072;
+    float:left;
+	text-align:center;
+	font-size:95px;
+}
+.white{
+	width:calc(100% - 87.5%);
+	height:calc(100% - 87.5%);
+	background-color:#D2E3C8;
+    float:left;
+	text-align:center;
+	font-size:95px;
+}
+.clear{
+	  clear:both;
+}
+	
